@@ -1,0 +1,25 @@
+body {
+  color: #d3d3d3;
+  background-image: linear-gradient(90deg, #333, #222);
+  min-height: 100vh;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.box div {
+  padding-top: 138.93805%;
+  background-size: cover;
+}
